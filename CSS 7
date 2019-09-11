@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Find the precious!</title>
+        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav> 
+            <ul>
+                <li class="maintitle">FindThePrecious.com</li>
+                <li class="li-selected">Fellows</li>
+                <li>Contact us</li>
+            </ul>
+        </nav>
+        <section>
+            <div class="carousel"></div>
+        </section>
+        <section class="title_fellows">
+            <h2>Fellows wanted dead <span class="smaller_text">(or alive if you want to eat them later)</span></h2>
+        </section>
+        <section>
+            <div class="blockImage">
+                <article class="mugshots"></article>
+                <article class="mugshots"></article>
+                <article class="mugshots"></article>
+            </div>         
+        </section>
+        <form>
+            <h2 class="contact_titre">Contact us</h2>
+            <input type="text" placeholder="@">
+            <input type="text" placeholder="&#8962;">
+            <input type="text" placeholder="I have seen one of them">
+            <textarea placeholder="Your message"></textarea>
+        </form>
+    </body>
+</html>
